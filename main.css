@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+
+.firstul {
+    display: flex;
+    gap: 120px;
+    list-style-type: none;
+    background-color: #7272dd;
+    padding: 20px;
+}
+
+.firstul a {
+    text-decoration: none;
+    color: white;
+    margin-left:100px;
+}
+
+.service {
+    position: relative;
+}
+
+.secondul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: none;
+
+    background-color: #7272dd;
+    padding: 20px;
+    width: 200px;
+
+    border-bottom-right-radius: 60px;
+    list-style-type: none;
+    color: white;
+    z-index: 99;
+    
+}
+
+.service:hover .secondul {
+    display: block;
+}
+
+.secondul a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+}
+
+.secondul a:hover {
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+}
+
+.streep1 {
+    position: absolute;
+    background-color: #9000ff;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 5;   
+}
+
+.streep2 {
+    position: absolute;
+    background-color: #55559f;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 25px;   
+}
+
+.streep3 {
+    position: absolute;
+    background-color: #b0b0eb;
+    width: 20px;
+    height: 10px;
+    top: 0px;
+    left: 50px;   
+}
+
+.streep {
+    position: relative;
+    margin: 140px 80px 0px 80px;
+}
+
+.text1 {
+    padding: 90px 80px 80px 80px;
+}
+
+.text1 h2{
+    font-size: 90px;
+    margin-top: -60px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.text1 article{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.firstbutton {
+    margin: 10px 1px 80px 80px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: black;
+}
+.firstbutton a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.secondbutton {
+    margin: 10px 1px 80px 80px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    background-color: #9000ff;
+}
+
+.secondbutton a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 15px;
+
+}
+body{
+    background-color: black;
+
+}
+main {
+    padding: 10px 100px 80px 80px
+}
+
+.images img {
+    position: relative;
+    height: 620px;
+    padding-left: 820px;
+    margin-top: -500px;
+    margin-left: -40px;
+    padding-left: -320px;
+}
+
+.images .circle {
+    position: absolute;
+    background-color: #9000ff;
+    width: 200px;
+    height: 200px;
+    top: -250px;
+    left: 700px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.images {
+    position: relative;
+    width: 100%;
+}
+
+.circle h1{
+    padding-top: 70px;
+    margin-right: 30px;
+    margin-left: -10px;
+    padding-right: 20px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(-20deg);
+    color: white;
+}
